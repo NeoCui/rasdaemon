@@ -27,7 +27,7 @@
 static int decode_hip07_sas_error(struct trace_seq *s, const void *error);
 static int decode_hip07_hns_error(struct trace_seq *s, const void *error);
 
-struct ras_ns_dec_tab hisi_ns_dec_tab[] = {
+static struct ras_ns_dec_tab hisi_ns_dec_tab[] = {
 	{
 		.sec_type = "daffd8146eba4d8c8a91bc9bbf4aa301",
 		.decode = decode_hip07_sas_error,
